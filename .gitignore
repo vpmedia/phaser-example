@@ -1,0 +1,19 @@
+#
+# Copyright (c) Andras Csizmadia <andras@vpmedia.hu> (www.vpmedia.hu)
+# author: Andras Csizmadia <andras@vpmedia.hu>
+# version: 1.0.0
+# see: https://git-scm.com/docs/gitignore
+#
+
+# folders
+/.parcel-cache
+/dist
+/node_modules
+.DS_Store
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
