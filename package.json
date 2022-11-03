@@ -1,7 +1,18 @@
 {
   "name": "@vpmedia/phaser-example",
   "version": "1.0.0",
-  "description": "@vpmedia/phaser example",
+  "description": "Example for the @vpmedia/phaser package",
+  "author": "Andras Csizmadia <andras@vpmedia.hu> (www.vpmedia.hu)",
+  "license": "MIT",
+  "homepage": "https://github.com/vpmedia/phaser-example#readme",
+  "bugs": {
+    "url": "https://github.com/vpmedia/phaser-example/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vpmedia/phaser-example.git"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead",
   "source": "src/index.html",
   "scripts": {
     "prestart": "rm -rf dist",
@@ -10,12 +21,9 @@
     "build": "parcel build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Andras Csizmadia <andras@vpmedia.hu> (www.vpmedia.hu)",
-  "license": "MIT",
   "dependencies": {
     "@vpmedia/phaser": "^1.0.2"
   },
-  "browserslist": "> 0.5%, last 2 versions, not dead",
   "devDependencies": {
     "parcel": "^2.7.0",
     "process": "^0.11.10"
