@@ -3,7 +3,7 @@
 
 Example for the @vpmedia/phaser package.
 
-### Getting started
+## Getting started
 
-    npm install
-    npm start
+    $ npm install
+    $ npm start
