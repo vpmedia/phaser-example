@@ -19,13 +19,20 @@
     "start": "parcel --open",
     "prebuild": "rm -rf dist",
     "build": "parcel build",
+    "lint": "eslint \"**/*.js\"",
+    "format": "prettier --write \"**/*.{js,json}\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "@vpmedia/phaser": "^1.0.3"
   },
   "devDependencies": {
+    "eslint": "^8.26.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
     "parcel": "^2.7.0",
+    "prettier": "^2.7.1",
     "process": "^0.11.10"
   },
   "engines": {
