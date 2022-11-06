@@ -5,7 +5,6 @@
 # see: https://prettier.io/docs/en/ignore.html
 #
 
-.idea/
 .parcel-cache/
 dist/
 node_modules/

@@ -10,10 +10,3 @@
 /dist
 /node_modules
 .DS_Store
-
-# IntelliJ IDEA
-.idea/
-*.iml
-*.ipr
-*.iws
-
