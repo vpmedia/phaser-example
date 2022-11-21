@@ -24,7 +24,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@vpmedia/phaser": "^1.0.4"
+    "@vpmedia/phaser": "^1.0.5"
   },
   "devDependencies": {
     "eslint": "^8.28.0",
