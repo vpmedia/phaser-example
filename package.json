@@ -24,7 +24,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@vpmedia/phaser": "^1.0.10"
+    "@vpmedia/phaser": "^1.0.11"
   },
   "devDependencies": {
     "eslint": "^8.28.0",
@@ -32,7 +32,7 @@
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-prettier": "^4.2.1",
     "parcel": "^2.8.0",
-    "prettier": "^2.7.1",
+    "prettier": "^2.8.0",
     "process": "^0.11.10"
   },
   "engines": {
