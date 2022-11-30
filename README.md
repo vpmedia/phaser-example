@@ -6,4 +6,5 @@ Example for the @vpmedia/phaser package.
 ## Getting started
 
     $ npm install
+    $ npm asset
     $ npm start
