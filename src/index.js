@@ -20,8 +20,16 @@ class GameState {
     const anim = spriteSheet.animations.add("anim");
     anim.play(12, true);
     // button
-    const cat = this.game.add.image(320, 400, "cat");
-    cat.anchor.set(0.5, 0.5);
+    const button = this.game.add.button(
+      320,
+      400,
+      "cat",
+      () => {
+        console.log("click");
+      },
+      this
+    );
+    button.anchor.set(0.5, 0.5);
   }
 }
 
