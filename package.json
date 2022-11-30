@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/vpmedia/phaser-example.git"
   },
-  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "browserslist": "> 1%, not dead",
   "source": "src/index.html",
   "scripts": {
     "asset": "phixify all --config-file ./.phixify.json",
