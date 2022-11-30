@@ -15,10 +15,12 @@
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "source": "src/index.html",
   "scripts": {
-    "prestart": "rm -rf dist",
+    "asset": "phixify all --config-file ./.phixify.json",
+    "prestart": "rm -rf dist && mkdir -p dist && cp -r public/* dist/",
     "start": "parcel --open",
     "prebuild": "rm -rf dist",
     "build": "parcel build",
+    "postbuild": "cp -r public/* dist/",
     "lint": "eslint \"**/*.js\"",
     "format": "prettier --write \"**/*.{js,json}\"",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -27,6 +29,7 @@
     "@vpmedia/phaser": "^1.0.27"
   },
   "devDependencies": {
+    "@vpmedia/phixify": "^1.1.0",
     "eslint": "^8.28.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.26.0",

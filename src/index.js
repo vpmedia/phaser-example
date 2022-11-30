@@ -1,6 +1,10 @@
 import { Game, Const } from "@vpmedia/phaser";
 
 class GameState {
+  preload() {
+    this.game.load.pack("main", "./asset/phaser_resource.json");
+  }
+
   create() {
     const text = this.game.add.text(320, 240, "Hello Phaser");
     text.anchor.set(0.5, 0.5);
