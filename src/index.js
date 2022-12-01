@@ -27,6 +27,10 @@ class GameState {
     anim.play(12, true);
     // sound
     const sound = this.game.sound.add("hitWall");
+    // TODO
+    // audio sprite
+    // const audioSprite = this.game.sound.addSprite("audiosprite1");
+    // audioSprite.allowMultiple = true;
     // button
     const button = this.game.add.button(
       320,
