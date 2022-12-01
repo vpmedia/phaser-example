@@ -30,19 +30,22 @@ class GameState {
     // audio sprite
     const audioSprite = this.game.sound.addSprite("audiosprite1");
     // button
-    const button = this.game.add.button(
-      320,
-      400,
-      "cat",
-      () => {
-        setTimeout(() => {
+    const buttonHandler = () => {
+      // tween
+      this.game.tweens.create(rainbow).to({ y: Math.random() * 30 + 70 }, 500, "Expo.easeOut", true, 0);
+      // play sound delayed with timer
+      this.game.time.events.add(
+        500,
+        () => {
           sound.play();
-        }, 1000);
-        const id = Math.round(Math.random() * 2) + 1;
-        audioSprite.play(`impactLight${id}`);
-      },
-      this
-    );
+        },
+        this
+      );
+      // play random audio sprite
+      const id = Math.round(Math.random() * 2) + 1;
+      audioSprite.play(`impactLight${id}`);
+    };
+    const button = this.game.add.button(320, 400, "cat", buttonHandler, this);
     button.anchor.set(0.5, 0.5);
   }
 }
