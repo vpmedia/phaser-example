@@ -26,7 +26,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@vpmedia/phaser": "^1.0.31"
+    "@vpmedia/phaser": "^1.0.32"
   },
   "devDependencies": {
     "@vpmedia/phixify": "^1.1.0",

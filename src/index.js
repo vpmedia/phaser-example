@@ -27,17 +27,19 @@ class GameState {
     anim.play(12, true);
     // sound
     const sound = this.game.sound.add("hitWall");
-    // TODO
     // audio sprite
-    // const audioSprite = this.game.sound.addSprite("audiosprite1");
-    // audioSprite.allowMultiple = true;
+    const audioSprite = this.game.sound.addSprite("audiosprite1");
     // button
     const button = this.game.add.button(
       320,
       400,
       "cat",
       () => {
-        sound.play();
+        setTimeout(() => {
+          sound.play();
+        }, 1000);
+        const id = Math.round(Math.random() * 2) + 1;
+        audioSprite.play(`impactLight${id}`);
       },
       this
     );
