@@ -2,7 +2,7 @@ import { Game, Const } from "@vpmedia/phaser";
 
 class GameState {
   preload() {
-    // console.log(game.renderer.type === Const.RENDER_WEBGL ? "WEBGL" : "CANVAS");
+    // console.log(this.game.renderer.type === Const.RENDER_WEBGL ? "WEBGL" : "CANVAS");
     this.game.load.pack("main", "./asset/phaser_resource.json", null, this);
   }
 
@@ -47,6 +47,7 @@ const config = {
   renderer: Const.RENDER_WEBGL,
   backgroundColor: "#333333",
   resolution: 1,
+  maxParallelDownloads: 16,
   antialias: false,
   clearBeforeRender: true,
   disableVisibilityChange: true,
