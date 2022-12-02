@@ -1,4 +1,5 @@
 import { Game, Const } from "@vpmedia/phaser";
+import { Spector } from "spectorjs";
 
 class GameState {
   preload() {
@@ -65,6 +66,9 @@ const config = {
   isSkipWindowFocus: false,
   transparent: false,
 };
+
+const spector = new Spector();
+spector.displayUI();
 
 const game = new Game(config);
 game.state.add("Game", GameState);
