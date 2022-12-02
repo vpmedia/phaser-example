@@ -59,7 +59,7 @@ const config = {
   resolution: 1,
   maxParallelDownloads: 16,
   antialias: false,
-  clearBeforeRender: true,
+  clearBeforeRender: false,
   disableVisibilityChange: true,
   forceSingleUpdate: true,
   isForceDisabledAudio: false,
