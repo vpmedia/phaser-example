@@ -61,9 +61,7 @@ const config = {
   antialias: false,
   clearBeforeRender: false,
   disableVisibilityChange: true,
-  forceSingleUpdate: true,
   isForceDisabledAudio: false,
-  isSkipWindowFocus: false,
   transparent: false,
 };
 
