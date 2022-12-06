@@ -55,7 +55,7 @@ const config = {
   width: 640,
   height: 480,
   renderType: Const.RENDER_AUTO,
-  backgroundColor: "#333333",
+  backgroundColor: 0x333333,
   resolution: 1,
   maxParallelDownloads: 16,
   antialias: false,
