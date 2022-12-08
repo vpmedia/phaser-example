@@ -17,7 +17,7 @@ class GameState {
     rainbow.anchor.set(0.5, 0.5);
     // text
     const textStyle = { fontFamily: "Arial", fontSize: 16, fill: "#FFFFFF" };
-    this.game.add.text(20, 20, jsonData.title, textStyle);
+    const text = this.game.add.text(20, 20, jsonData.title, textStyle);
     // sprite sheet
     const spriteSheet2 = this.game.add.image(bg.x, bg.y + 80, "spritesheet2", "babar-pym-wait");
     spriteSheet2.anchor.set(0.5, 0.5);
@@ -26,12 +26,15 @@ class GameState {
     spriteSheet.anchor.set(0.5, 0.5);
     const anim = spriteSheet.animations.add("anim");
     anim.play(12, true);
+    this.numSprites = 1;
     // sound
     const sound = this.game.sound.add("hitWall");
     // audio sprite
     const audioSprite = this.game.sound.addSprite("audiosprite1");
     // button
     const buttonHandler = () => {
+      this.addSprite();
+      text.text = "Num anims: " + this.numSprites;
       // tween
       this.game.tweens.create(rainbow).to({ y: Math.random() * 30 + 70 }, 500, "Expo.easeOut", true, 0);
       // play sound delayed with timer
@@ -48,6 +51,14 @@ class GameState {
     };
     const button = this.game.add.button(320, 400, "cat", buttonHandler, this);
     button.anchor.set(0.5, 0.5);
+  }
+
+  addSprite() {
+    const spriteSheet = this.game.add.image(Math.random() * 640, Math.random() * 480, "spritesheet1");
+    spriteSheet.anchor.set(0.5, 0.5);
+    const anim = spriteSheet.animations.add("anim");
+    anim.play(12, true);
+    this.numSprites += 1;
   }
 }
 
