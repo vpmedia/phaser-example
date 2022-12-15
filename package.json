@@ -26,7 +26,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@vpmedia/phaser": "^1.1.6",
+    "@vpmedia/phaser": "^1.1.7",
     "spectorjs": "^0.9.27"
   },
   "devDependencies": {
