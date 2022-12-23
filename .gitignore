@@ -4,8 +4,6 @@
 # see: https://git-scm.com/docs/gitignore
 #
 
-# folders
-/.parcel-cache
 /dist
 /node_modules
 .DS_Store
