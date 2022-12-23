@@ -12,7 +12,6 @@
     "type": "git",
     "url": "git+https://github.com/vpmedia/phaser-example.git"
   },
-  "browserslist": "> 1%, not dead, not op_mini all",
   "type": "module",
   "main": "src/index.html",
   "scripts": {
