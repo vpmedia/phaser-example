@@ -78,6 +78,7 @@ const config = {
   clearBeforeRender: true,
   roundPixels: true,
   disableVisibilityChange: true,
+  isForceDisabledAudio: false,
   transparent: false,
 };
 
