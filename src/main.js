@@ -1,4 +1,6 @@
+import "./style.css";
 import { Game, Const } from "@vpmedia/phaser";
+import FontFaceObserver from "fontfaceobserver";
 import { Spector } from "spectorjs";
 
 class GameState {
@@ -16,8 +18,11 @@ class GameState {
     const rainbow = this.game.add.image(320, 100, "rainbow");
     rainbow.anchor.set(0.5, 0.5);
     // text
-    const textStyle = { fontFamily: "Arial", fontSize: 16, fill: "#FFFFFF" };
+    const textStyle = { font: "Lineal", fontSize: 24, fill: "#FFFFFF" };
     const text = this.game.add.text(20, 20, jsonData.title, textStyle);
+    // bitmap text
+    const bitmapText = this.game.add.bitmapText(320, 100, "desyrel", "Bitmap Text", 32);
+    bitmapText.anchor.set(0.5, 0.5);
     // sprite sheet
     const spriteSheet2 = this.game.add.image(bg.x, bg.y + 80, "spritesheet2", "babar-pym-wait");
     spriteSheet2.anchor.set(0.5, 0.5);
@@ -73,14 +78,15 @@ const config = {
   clearBeforeRender: true,
   roundPixels: true,
   disableVisibilityChange: true,
-  isForceDisabledAudio: false,
   transparent: false,
 };
 
 const spector = new Spector();
 spector.displayUI();
 
-const game = new Game(config);
-game.state.add("Game", GameState);
-game.state.start("Game");
-window.game = game;
+new FontFaceObserver("Lineal").load().then(() => {
+  const game = new Game(config);
+  game.state.add("Game", GameState);
+  game.state.start("Game");
+  window.game = game;
+});

@@ -10,3 +10,11 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+@font-face {
+    font-family: Lineal;
+    src:
+      url('/asset/font/Lineal.woff2') format('woff2'),
+      url('/asset/font/Lineal.woff') format('woff'),
+      url('/asset/font/Lineal.ttf') format('truetype');
+}

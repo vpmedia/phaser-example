@@ -13,20 +13,20 @@
     "url": "git+https://github.com/vpmedia/phaser-example.git"
   },
   "browserslist": "> 1%, not dead",
-  "source": "src/index.html",
+  "type": "module",
+  "main": "src/index.html",
   "scripts": {
     "asset": "phixify all --config-file ./.phixify.json",
-    "prestart": "rm -rf dist && mkdir -p dist && cp -r public/* dist/",
-    "start": "parcel --open",
-    "prebuild": "rm -rf dist",
-    "build": "parcel build",
-    "postbuild": "cp -r public/* dist/",
+    "start": "vite --open",
+    "build": "vite build",
+    "preview": "vite preview --open",
     "lint": "eslint \"**/*.js\"",
     "format": "prettier --write \"**/*.{js,json}\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "@vpmedia/phaser": "^1.1.8",
+    "fontfaceobserver": "^2.3.0",
     "spectorjs": "^0.9.27"
   },
   "devDependencies": {
@@ -35,8 +35,8 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "parcel": "^2.8.2",
-    "prettier": "^2.8.1"
+    "prettier": "^2.8.1",
+    "vite": "^4.0.3"
   },
   "engines": {
     "npm": ">=8.0.0",
