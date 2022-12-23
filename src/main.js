@@ -1,7 +1,7 @@
 import "./style.css";
 import { Game, Const } from "@vpmedia/phaser";
 import FontFaceObserver from "fontfaceobserver";
-import { Spector } from "spectorjs";
+// import { Spector } from "spectorjs";
 
 class GameState {
   preload() {
@@ -81,8 +81,8 @@ const config = {
   transparent: false,
 };
 
-const spector = new Spector();
-spector.displayUI();
+// const spector = new Spector();
+// spector.displayUI();
 
 new FontFaceObserver("Lineal").load().then(() => {
   const game = new Game(config);
