@@ -24,7 +24,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@vpmedia/phaser": "^1.2.2",
+    "@vpmedia/phaser": "^1.2.3",
     "fontfaceobserver": "^2.3.0",
     "spectorjs": "^0.9.27"
   },
