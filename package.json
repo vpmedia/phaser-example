@@ -21,6 +21,7 @@
     "preview": "vite preview --open",
     "lint": "eslint \"**/*.{js,jsx,ts,tsx}\"",
     "stylelint": "stylelint \"**/*.css\"",
+    "typecheck": "tsc",
     "format": "prettier --write \"**/*.{js,json}\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
