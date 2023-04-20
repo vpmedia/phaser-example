@@ -4,11 +4,17 @@ import FontFaceObserver from "fontfaceobserver";
 // import { Spector } from "spectorjs";
 
 class GameState {
+  /**
+   * TBD.
+   */
   preload() {
     // console.log(this.game.renderer.type === Const.RENDER_WEBGL ? "WEBGL" : "CANVAS");
     this.game.load.pack("main", "./asset/phaser_resource.json", null, this);
   }
 
+  /**
+   * TBD.
+   */
   create() {
     // json
     const jsonData = this.game.cache.getJSON("data.json");
@@ -58,6 +64,9 @@ class GameState {
     button.anchor.set(0.5, 0.5);
   }
 
+  /**
+   * TBD.
+   */
   addSprite() {
     const spriteSheet = this.game.add.image(Math.random() * 640, Math.random() * 480, "spritesheet1");
     spriteSheet.anchor.set(0.5, 0.5);
