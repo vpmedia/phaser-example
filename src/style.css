@@ -1,20 +1,19 @@
-html, body {
-    height: 100%;
+html,
+body {
+  height: 100%;
 }
 
 body {
-    background: grey;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  background: grey;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @font-face {
-    font-family: 'Lineal';
-    src:
-      url('/asset/font/Lineal.woff2') format('woff2'),
-      url('/asset/font/Lineal.woff') format('woff'),
-      url('/asset/font/Lineal.ttf') format('truetype');
+  font-family: "Lineal";
+  src: url("/asset/font/Lineal.woff2") format("woff2"), url("/asset/font/Lineal.woff") format("woff"),
+    url("/asset/font/Lineal.ttf") format("truetype");
 }
