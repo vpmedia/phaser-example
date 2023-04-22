@@ -7,6 +7,15 @@ class GameState {
   /**
    * TBD.
    */
+  constructor() {
+    /**
+     * @type {Game} - TBD.
+     */
+    this.game = null;
+  }
+  /**
+   * TBD.
+   */
   preload() {
     // console.log(this.game.renderer.type === Const.RENDER_WEBGL ? "WEBGL" : "CANVAS");
     this.game.load.pack("main", "./asset/phaser_resource.json", null, this);
