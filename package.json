@@ -29,7 +29,7 @@
     "lint-staged": "lint-staged"
   },
   "dependencies": {
-    "@vpmedia/phaser": "^1.21.0",
+    "@vpmedia/phaser": "^1.22.0",
     "fontfaceobserver": "^2.3.0",
     "spectorjs": "^0.9.27"
   },
