@@ -1,6 +1,6 @@
-import './style.css';
-import { Game, Const } from '@vpmedia/phaser';
+import { Const, Game } from '@vpmedia/phaser';
 import FontFaceObserver from 'fontfaceobserver';
+import './style.css';
 // import { Spector } from "spectorjs";
 
 class GameState {
@@ -103,9 +103,8 @@ const config = {
 // const spector = new Spector();
 // spector.displayUI();
 
-new FontFaceObserver('Lineal').load().then(() => {
-  const game = new Game(config);
-  game.state.add('Game', GameState);
-  game.state.start('Game');
-  window.game = game;
-});
+await new FontFaceObserver('Lineal').load();
+const game = new Game(config);
+game.state.add('Game', GameState);
+game.state.start('Game');
+window.game = game;
