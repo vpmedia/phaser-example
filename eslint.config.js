@@ -57,7 +57,7 @@ export default [
       'unicorn/filename-case': 'warn',
       'unicorn/no-null': 'warn',
       'unicorn/numeric-separators-style': 'warn',
-      'no-unused-vars': 'warn',
+      'no-unused-vars': 'off',
       'prefer-arrow-callback': 'warn',
       'prefer-template': 'warn',
       // 'import/extensions': ['warn', 'always'],
