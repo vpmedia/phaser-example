@@ -54,7 +54,7 @@ class GameState {
     // button
     const buttonHandler = () => {
       this.addSprite();
-      text.text = 'Num anims: ' + this.numSprites;
+      text.text = `Num anims: ${this.numSprites}`;
       // tween
       this.game.tweens.create(rainbow).to({ y: Math.random() * 30 + 70 }, 500, 'Expo.easeOut', true, 0);
       // play sound delayed with timer
@@ -107,4 +107,4 @@ await new FontFaceObserver('Lineal').load();
 const game = new Game(config);
 game.state.add('Game', GameState);
 game.state.start('Game');
-window.game = game;
+globalThis.game = game;
