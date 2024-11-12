@@ -28,7 +28,7 @@
     "lefthook:uninstall": "lefthook uninstall"
   },
   "dependencies": {
-    "@vpmedia/phaser": "^1.49.0",
+    "@vpmedia/phaser": "^1.50.0",
     "fontfaceobserver": "^2.3.0",
     "spectorjs": "^0.9.30"
   },
