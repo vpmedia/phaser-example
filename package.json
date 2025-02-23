@@ -23,9 +23,7 @@
     "stylelint": "stylelint \"**/*.css\" --ignore-path .gitignore",
     "typecheck": "tsc",
     "format": "prettier --write \"./**/*.{js,jsx,mjs,cjs,ts,tsx,json,md,css}\"",
-    "test": "echo \"Warning: no test specified\" && exit 0",
-    "lefthook:install": "lefthook install",
-    "lefthook:uninstall": "lefthook uninstall"
+    "test": "echo \"Warning: no test specified\" && exit 0"
   },
   "dependencies": {
     "@vpmedia/phaser": "^1.76.0",
@@ -44,7 +42,6 @@
     "globals": "^16.0.0",
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
-    "lefthook": "^1.10.11",
     "prettier": "^3.5.2",
     "stylelint": "^16.14.1",
     "stylelint-config-standard": "^37.0.0",
@@ -54,6 +51,7 @@
   "browserslist": [
     "> 0.5%",
     "not dead",
-    "not op_mini all"
+    "not op_mini all",
+    "iOS >= 14"
   ]
 }
