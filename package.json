@@ -26,7 +26,7 @@
     "test": "echo \"Warning: no test specified\" && exit 0"
   },
   "dependencies": {
-    "@vpmedia/phaser": "^1.80.0",
+    "@vpmedia/phaser": "^1.82.0",
     "fontfaceobserver": "^2.3.0",
     "spectorjs": "^0.9.30"
   },
@@ -37,7 +37,7 @@
     "@types/jest": "^30.0.0",
     "@vpmedia/phixify": "^2.0.1",
     "eslint": "^9.29.0",
-    "eslint-plugin-jsdoc": "^51.0.3",
+    "eslint-plugin-jsdoc": "^51.1.2",
     "eslint-plugin-unicorn": "^59.0.1",
     "globals": "^16.2.0",
     "jest": "^30.0.2",
