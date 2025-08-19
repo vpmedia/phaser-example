@@ -12,12 +12,12 @@ https://github.com/vpmedia/phixify#installation-guide
 
 ### Install the package dependencies
 
-    $ npm install
+    $ pnpm install
 
 ### Generate the assets
 
-    $ npm asset
+    $ pnpm asset
 
 ### Run the example
 
-    $ npm start
+    $ pnpm start
