@@ -698,7 +698,7 @@ packages:
 
   '@vpmedia/phixify@2.0.1':
     resolution: {integrity: sha512-iDM0N6hhv5TcxP03egPUsr2rolo65XhwSzZ/EcxviB+20oPtJrMNzGcZziSryHm/jROA07W1ALgRbh5DenUnCw==}
-    engines: {node: '>=18.0.0', pnpm: '>=8.0.0'}
+    engines: {node: '>=18.0.0', npm: '>=8.0.0'}
     hasBin: true
 
   '@vpmedia/simplify@1.29.0':
@@ -1522,7 +1522,7 @@ packages:
 
   rollup@4.46.3:
     resolution: {integrity: sha512-RZn2XTjXb8t5g13f5YclGoilU/kwT696DIkY3sywjdZidNSi3+vseaQov7D7BZXVJCPv3pDWUN69C78GGbXsKw==}
-    engines: {node: '>=18.0.0', pnpm: '>=8.0.0'}
+    engines: {node: '>=18.0.0', npm: '>=8.0.0'}
     hasBin: true
 
   rrweb-cssom@0.8.0:
