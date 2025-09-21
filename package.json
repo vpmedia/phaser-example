@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "@types/node": "^24.5.2",
-    "@vpmedia/phaser": "^1.82.0",
+    "@vpmedia/phaser": "^1.83.0",
     "fontfaceobserver": "^2.3.0",
     "spectorjs": "^0.9.30"
   },
