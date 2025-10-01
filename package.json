@@ -26,7 +26,7 @@
     "test": "vitest --coverage --pass-with-no-tests"
   },
   "dependencies": {
-    "@types/node": "^24.6.0",
+    "@types/node": "^24.6.1",
     "@vpmedia/phaser": "^1.83.0",
     "fontfaceobserver": "^2.3.0",
     "spectorjs": "^0.9.30"
@@ -44,7 +44,7 @@
     "prettier": "^3.6.2",
     "stylelint": "^16.24.0",
     "stylelint-config-standard": "^39.0.0",
-    "typescript": "^5.9.2",
+    "typescript": "^5.9.3",
     "vite": "^7.1.7",
     "vitest": "^3.2.4"
   },
