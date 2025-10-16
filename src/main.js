@@ -1,7 +1,10 @@
 import { Const, Game } from '@vpmedia/phaser';
+import { ConsoleLogHandler, Logger } from '@vpmedia/simplify';
 import FontFaceObserver from 'fontfaceobserver';
 import './style.css';
 // import { Spector } from "spectorjs";
+
+Logger.addHandler(new ConsoleLogHandler());
 
 class GameState {
   /**

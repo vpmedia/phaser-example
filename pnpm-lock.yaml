@@ -12,8 +12,11 @@ importers:
         specifier: ^24.7.2
         version: 24.7.2
       '@vpmedia/phaser':
-        specifier: ^1.84.0
-        version: 1.84.0
+        specifier: ^1.85.0
+        version: 1.85.0
+      '@vpmedia/simplify':
+        specifier: ^1.39.0
+        version: 1.39.0
       fontfaceobserver:
         specifier: ^2.3.0
         version: 2.3.0
@@ -763,8 +766,8 @@ packages:
   '@vitest/utils@3.2.4':
     resolution: {integrity: sha512-fB2V0JFrQSMsCo9HiSq3Ezpdv4iYaXRG1Sx8edX3MwxfyNn83mKiGzOcH+Fkxt4MHxr3y42fQi1oeAInqgX2QA==}
 
-  '@vpmedia/phaser@1.84.0':
-    resolution: {integrity: sha512-EjbyB0kOJ0shBZYVN4L1JyTifmhfarW+duShFikUP7flPHOZnAmu1zsx8tLh9AklvVnJ1aILECUxz6ycZtwR5A==}
+  '@vpmedia/phaser@1.85.0':
+    resolution: {integrity: sha512-vAz1FlJREm9yN/JfsfPMFlxeF8l6FK6Jih8WP/8Gg62S5dl1Wyopr+rBumdG33FULvyW4AiibWKVL0XA5UM0eQ==}
 
   '@vpmedia/phixify@2.1.0':
     resolution: {integrity: sha512-1Ldi8ZBPfa2LYf2gRW2DFBSGaw/ocjmhHxq/UN40z4SxO3vIU77dM0KQnrChX72dshNh0R84GvKgqTgy9qhmpg==}
@@ -2529,7 +2532,7 @@ snapshots:
       loupe: 3.2.1
       tinyrainbow: 2.0.0
 
-  '@vpmedia/phaser@1.84.0':
+  '@vpmedia/phaser@1.85.0':
     dependencies:
       '@types/node': 24.7.2
       '@vpmedia/simplify': 1.39.0
