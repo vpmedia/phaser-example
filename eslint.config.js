@@ -54,9 +54,6 @@ export default [
       'unicorn/no-null': 'off',
       'unicorn/numeric-separators-style': 'off',
       'unicorn/prefer-class-fields': 'off',
-      'no-unused-vars': 'off',
-      'prefer-arrow-callback': 'warn',
-      'prefer-template': 'warn',
     },
   },
 ];
