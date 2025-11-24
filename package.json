@@ -22,7 +22,7 @@
     "lint": "eslint \"**/*.{js,jsx}\"",
     "stylelint": "stylelint \"**/*.css\" --ignore-path .gitignore",
     "typecheck": "tsc",
-    "format": "prettier --write \"./**/*.{js,jsx,mjs,cjs,ts,tsx,json,md,css}\"",
+    "format": "prettier --write \"./**/*.{js,jsx,mjs,cjs,ts,tsx,json,css}\"",
     "test": "vitest --coverage --pass-with-no-tests"
   },
   "dependencies": {
