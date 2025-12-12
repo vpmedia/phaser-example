@@ -26,7 +26,7 @@
     "test": "vitest --coverage --pass-with-no-tests"
   },
   "dependencies": {
-    "@vpmedia/phaser": "^1.86.0",
+    "@vpmedia/phaser": "^1.94.0",
     "@vpmedia/simplify": "^1.46.0",
     "fontfaceobserver": "^2.3.0",
     "spectorjs": "^0.9.30"
@@ -36,7 +36,7 @@
     "@commitlint/config-conventional": "^20.2.0",
     "@eslint/js": "^9.39.1",
     "@types/fontfaceobserver": "^2.1.3",
-    "@types/node": "^24.10.1",
+    "@types/node": "^25.0.1",
     "@vitest/coverage-v8": "^4.0.15",
     "@vpmedia/phixify": "^2.2.0",
     "eslint": "^9.39.1",
@@ -46,7 +46,7 @@
     "globals": "^16.5.0",
     "jsdom": "^27.3.0",
     "oxlint": "^1.32.0",
-    "oxlint-tsgolint": "^0.8.4",
+    "oxlint-tsgolint": "^0.8.6",
     "prettier": "^3.7.4",
     "stylelint": "^16.26.1",
     "stylelint-config-standard": "^39.0.1",
