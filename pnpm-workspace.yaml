@@ -2,7 +2,9 @@ onlyBuiltDependencies:
   - esbuild
   - sharp
 trustPolicy: no-downgrade
+trustPolicyExclude:
+  - ts-api-utils@2.3.0
 minimumReleaseAge: 2880
 minimumReleaseAgeExclude:
   - '@vpmedia/phaser'
-  - '@vpmedia/simlify'
+  - '@vpmedia/simplify'

@@ -26,7 +26,7 @@
     "test": "vitest --coverage --pass-with-no-tests"
   },
   "dependencies": {
-    "@vpmedia/phaser": "^1.96.0",
+    "@vpmedia/phaser": "^1.97.0",
     "@vpmedia/simplify": "^1.53.0",
     "fontfaceobserver": "^2.3.0",
     "spectorjs": "^0.9.30"
