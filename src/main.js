@@ -32,22 +32,22 @@ class GameState {
     const jsonData = this.game.cache.getJSON('data.json');
     // image
     const bg = this.game.add.image(320, 240, 'bg');
-    bg.anchor.set(0.5, 0.5);
+    bg.anchor.setTo(0.5, 0.5);
     const rainbow = this.game.add.image(320, 100, 'rainbow');
-    rainbow.anchor.set(0.5, 0.5);
+    rainbow.anchor.setTo(0.5, 0.5);
     // text
     const textStyle = { font: 'Lineal', fontSize: 24, fill: '#FFFFFF' };
     const text = this.game.add.text(20, 20, jsonData.title, textStyle);
     // bitmap text
     const bitmapText = this.game.add.bitmapText(320, 100, 'desyrel', 'Bitmap Text', 32);
-    bitmapText.anchor.set(0.5, 0.5);
+    bitmapText.anchor.setTo(0.5, 0.5);
     // sprite sheet
     const spriteSheet2 = this.game.add.image(bg.x, bg.y + 80, 'spritesheet2', 'babar-pym-wait');
-    spriteSheet2.anchor.set(0.5, 0.5);
+    spriteSheet2.anchor.setTo(0.5, 0.5);
     // sprite sheet
     const spriteSheet = this.game.add.image(bg.x, bg.y, 'spritesheet1');
-    spriteSheet.anchor.set(0.5, 0.5);
-    const anim = spriteSheet.animations.add('anim');
+    spriteSheet.anchor.setTo(0.5, 0.5);
+    const anim = spriteSheet.animations.add('anim', []);
     anim.play(12, true);
     this.numSprites = 1;
     // sound
@@ -64,7 +64,7 @@ class GameState {
       this.game.time.events.add(
         500,
         () => {
-          sound.play();
+          sound.play('', 0, 1, false, true);
         },
         this
       );
@@ -73,7 +73,7 @@ class GameState {
       audioSprite.play(`impactLight${id}`);
     };
     const button = this.game.add.button(320, 400, 'cat', buttonHandler, this);
-    button.anchor.set(0.5, 0.5);
+    button.anchor.setTo(0.5, 0.5);
   }
 
   /**
@@ -81,7 +81,7 @@ class GameState {
    */
   addSprite() {
     const spriteSheet = this.game.add.image(Math.random() * 640, Math.random() * 480, 'spritesheet1');
-    spriteSheet.anchor.set(0.5, 0.5);
+    spriteSheet.anchor.setTo(0.5, 0.5);
     const anim = spriteSheet.animations.add('anim');
     anim.play(12, true);
     this.numSprites += 1;
@@ -107,6 +107,7 @@ const config = {
 // spector.displayUI();
 
 await new FontFaceObserver('Lineal').load();
+// @ts-expect-error
 const game = new Game(config);
 game.state.add('Game', GameState);
 game.state.start('Game');

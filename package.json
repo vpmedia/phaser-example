@@ -16,14 +16,15 @@
   "main": "src/index.html",
   "scripts": {
     "asset": "phixify all --config-file ./.phixify.json",
-    "start": "vite --open",
     "build": "vite build --emptyOutDir",
-    "preview": "vite preview --open",
-    "lint": "eslint \"**/*.{js,jsx}\"",
-    "stylelint": "stylelint \"**/*.css\" --ignore-path .gitignore",
-    "typecheck": "tsc",
+    "check": "pnpm lint && pnpm test && pnpm typecheck",
     "format": "prettier --write \"./**/*.{js,jsx,mjs,cjs,ts,tsx,json,css}\"",
-    "test": "vitest --coverage --pass-with-no-tests"
+    "lint": "eslint \"**/*.{js,jsx}\"",
+    "preview": "vite preview --open",
+    "start": "vite --open",
+    "stylelint": "stylelint \"**/*.css\" --ignore-path .gitignore",
+    "test": "vitest --coverage --pass-with-no-tests",
+    "typecheck": "tsc"
   },
   "dependencies": {
     "@vpmedia/phaser": "^1.99.0",
