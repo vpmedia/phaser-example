@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "@vpmedia/phaser": "^1.100.0",
-    "@vpmedia/simplify": "^1.57.0",
+    "@vpmedia/simplify": "^1.59.0",
     "fontfaceobserver": "^2.3.0",
     "spectorjs": "^0.9.30"
   },
