@@ -19,7 +19,7 @@
     "build": "vite build --emptyOutDir",
     "check": "pnpm lint && pnpm test && pnpm typecheck",
     "format": "prettier --write \"./**/*.{js,jsx,mjs,cjs,ts,tsx,json,css}\"",
-    "lint": "oxlint \"**/*.{js,jsx}\"",
+    "lint": "oxlint src",
     "preview": "vite preview --open",
     "start": "vite --open",
     "test": "vitest --coverage --pass-with-no-tests",
