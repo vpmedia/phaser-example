@@ -7,26 +7,14 @@ import './style.css';
 Logger.addHandler(new ConsoleLogHandler());
 
 class GameState {
-  /**
-   * TBD.
-   */
-  constructor() {
-    /**
-     * @type {Game} - TBD.
-     */
-    this.game = null;
-  }
-  /**
-   * TBD.
-   */
+  game: Game = null;
+  numSprites: number = 0;
+
   preload() {
     // console.log(this.game.renderer.type === Const.RENDER_WEBGL ? "WEBGL" : "CANVAS");
     this.game.load.pack('main', './asset/phaser_resource.json', null, this);
   }
 
-  /**
-   * TBD.
-   */
   create() {
     // json
     const jsonData = this.game.cache.getJSON('data.json');
@@ -76,9 +64,6 @@ class GameState {
     button.anchor.setTo(0.5, 0.5);
   }
 
-  /**
-   * TBD.
-   */
   addSprite() {
     const spriteSheet = this.game.add.image(Math.random() * 640, Math.random() * 480, 'spritesheet1');
     spriteSheet.anchor.setTo(0.5, 0.5);
