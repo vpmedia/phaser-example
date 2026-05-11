@@ -26,8 +26,8 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@vpmedia/phaser": "^1.102.0",
-    "@vpmedia/simplify": "^1.75.0",
+    "@vpmedia/phaser": "^1.103.0",
+    "@vpmedia/simplify": "^1.76.0",
     "fontfaceobserver": "^2.3.0",
     "spectorjs": "^0.9.30"
   },

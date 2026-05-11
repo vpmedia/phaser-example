@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@vpmedia/phaser':
-        specifier: ^1.102.0
-        version: 1.102.0
+        specifier: ^1.103.0
+        version: 1.103.0
       '@vpmedia/simplify':
-        specifier: ^1.75.0
-        version: 1.75.0
+        specifier: ^1.76.0
+        version: 1.76.0
       fontfaceobserver:
         specifier: ^2.3.0
         version: 2.3.0
@@ -1037,15 +1037,15 @@ packages:
   '@vitest/utils@4.1.5':
     resolution: {integrity: sha512-76wdkrmfXfqGjueGgnb45ITPyUi1ycZ4IHgC2bhPDUfWHklY/q3MdLOAB+TF1e6xfl8NxNY0ZYaPCFNWSsw3Ug==}
 
-  '@vpmedia/phaser@1.102.0':
-    resolution: {integrity: sha512-NTtMDICf7z7Vb8j4LU314TjtRkbqNNPNinJ0WD8J/trucRymbDNnJ6xERU3TyYyl066m8sy+sXXpxxGiHXLCtg==}
+  '@vpmedia/phaser@1.103.0':
+    resolution: {integrity: sha512-UzdwHRG3QFzExwBkgt1IDUP4Ouze+95UWrZsUnnmHA8c6CKASouLp2eJAFGSfp5tzV956UBE9zfjZt9eCRd9/g==}
 
   '@vpmedia/phixify@2.2.0':
     resolution: {integrity: sha512-PcHI+6VnbrO9qBAtAGiGipnFQo6pUPCBJzzpNO5OoJctsuvgFzSDpbfekApx3S2m4T/r8A6iyiLB1XhYXpx7IA==}
     hasBin: true
 
-  '@vpmedia/simplify@1.75.0':
-    resolution: {integrity: sha512-Dpyll1AYAQkLzDX0QkSvBMU4mzLuURFhRuELuZiWcdzvD6WGHTUzfoDauLxf0xDhb+piIH8WqChnUCzrm5P4ZQ==}
+  '@vpmedia/simplify@1.76.0':
+    resolution: {integrity: sha512-SZPT7EsZiFHdjNi+qZpaWrgUc6MINefZoFAh+1QowYerzzpNb8tJCg3TCODA/bZ23MjYq54Qb/w2pf82FKjluA==}
 
   ajv@8.20.0:
     resolution: {integrity: sha512-Thbli+OlOj+iMPYFBVBfJ3OmCAnaSyNn4M1vz9T6Gka5Jt9ba/HIR56joy65tY6kx/FCF5VXNB819Y7/GUrBGA==}
@@ -2390,9 +2390,9 @@ snapshots:
       convert-source-map: 2.0.0
       tinyrainbow: 3.1.0
 
-  '@vpmedia/phaser@1.102.0':
+  '@vpmedia/phaser@1.103.0':
     dependencies:
-      '@vpmedia/simplify': 1.75.0
+      '@vpmedia/simplify': 1.76.0
       uuid: 14.0.0
 
   '@vpmedia/phixify@2.2.0':
@@ -2400,7 +2400,7 @@ snapshots:
       commander: 14.0.3
       sharp: 0.34.5
 
-  '@vpmedia/simplify@1.75.0':
+  '@vpmedia/simplify@1.76.0':
     optionalDependencies:
       '@sentry/browser': 10.52.0
 
