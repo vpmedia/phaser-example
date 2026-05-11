@@ -8,3 +8,4 @@ minimumReleaseAge: 1440
 minimumReleaseAgeExclude:
   - '@vpmedia/phaser'
   - '@vpmedia/simplify'
+blockExoticSubdeps: true
