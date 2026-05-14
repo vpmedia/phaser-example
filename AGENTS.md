@@ -22,7 +22,6 @@ Example application for the `@vpmedia/phaser` package (modern Phaser 2 port). De
 
 - Lefthook: https://lefthook.dev/llms.txt
 - OXC (oxlint, oxfmt): https://oxc.rs/llms.txt
-- TypeScript: https://www.typescriptlang.org/llms.txt
 - Vite: https://vite.dev/llms.txt
 - Vitest: https://vitest.dev/llms.txt
 
