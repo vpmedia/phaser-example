@@ -13,7 +13,7 @@ Example application for the `@vpmedia/phaser` package (modern Phaser 2 port). De
 - **Libs:** `@vpmedia/simplify`, `fontfaceobserver`, `spectorjs` (WebGL inspector)
 - **Build/Dev Server:** Vite
 - **Asset Pipeline:** `@vpmedia/phixify`
-- **Testing:** Vitest, @vitest/coverage-v8, jsdom
+- **Testing:** Vitest, @vitest/coverage-v8, happy-dom
 - **Lint/Format:** oxlint (+ `oxlint-tsgolint`), oxfmt
 - **Type Checking:** TypeScript
 - **Tooling:** lefthook (git hooks), commitlint (conventional commits)
@@ -22,6 +22,7 @@ Example application for the `@vpmedia/phaser` package (modern Phaser 2 port). De
 
 - Lefthook: https://lefthook.dev/llms.txt
 - OXC (oxlint, oxfmt): https://oxc.rs/llms.txt
+- TypeScript: https://context7.com/websites/typescriptlang/llms.txt
 - Vite: https://vite.dev/llms.txt
 - Vitest: https://vitest.dev/llms.txt
 
