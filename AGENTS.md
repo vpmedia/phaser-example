@@ -9,7 +9,6 @@ Example application for the `@vpmedia/phaser` package (modern Phaser 2 port). De
 - **Language:** TypeScript (ESM)
 - **Runtime:** Node.js / Browser
 - **Package Manager:** pnpm (workspaces)
-- **Domain:** Example app for `@vpmedia/phaser`
 - **Game Engine:** `@vpmedia/phaser` (modern Phaser 2 port)
 - **Libs:** `@vpmedia/simplify`, `fontfaceobserver`, `spectorjs` (WebGL inspector)
 - **Build/Dev Server:** Vite
@@ -49,9 +48,9 @@ Example application for the `@vpmedia/phaser` package (modern Phaser 2 port). De
 
 ## Conventions
 
-- **Commits:** Conventional Commits with custom rules (header ≤ 100, body line ≤ 100, no sentence/start/pascal/upper-case subjects)
+- **Commits:** Conventional Commits (`@commitlint/config-conventional`)
 - **Modules:** ESM only
-- **Style:** Enforced by oxlint + oxfmt
+- **Style:** Enforced by oxlint + oxfmt — do not hand-format
 
 ## Testing
 
