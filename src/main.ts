@@ -19,9 +19,9 @@ class GameState {
     // json
     const jsonData = this.game.cache.getJSON('data.json');
     // image
-    const bg = this.game.add.image(320, 240, 'bg');
+    const bg = this.game.add.image(320, 240, 'bg', null);
     bg.anchor.setTo(0.5, 0.5);
-    const rainbow = this.game.add.image(320, 100, 'rainbow');
+    const rainbow = this.game.add.image(320, 100, 'rainbow', null);
     rainbow.anchor.setTo(0.5, 0.5);
     // text
     const textStyle = { font: 'Lineal', fontSize: 24, fill: '#FFFFFF' };
@@ -33,7 +33,7 @@ class GameState {
     const spriteSheet2 = this.game.add.image(bg.x, bg.y + 80, 'spritesheet2', 'babar-pym-wait');
     spriteSheet2.anchor.setTo(0.5, 0.5);
     // sprite sheet
-    const spriteSheet = this.game.add.image(bg.x, bg.y, 'spritesheet1');
+    const spriteSheet = this.game.add.image(bg.x, bg.y, 'spritesheet1', null);
     spriteSheet.anchor.setTo(0.5, 0.5);
     const anim = spriteSheet.animations.add('anim', []);
     anim.play(12, true);
@@ -65,7 +65,7 @@ class GameState {
   }
 
   addSprite() {
-    const spriteSheet = this.game.add.image(Math.random() * 640, Math.random() * 480, 'spritesheet1');
+    const spriteSheet = this.game.add.image(Math.random() * 640, Math.random() * 480, 'spritesheet1', null);
     spriteSheet.anchor.setTo(0.5, 0.5);
     const anim = spriteSheet.animations.add('anim');
     anim.play(12, true);
