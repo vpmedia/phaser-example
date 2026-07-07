@@ -26,8 +26,8 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@vpmedia/phaser": "^1.105.0",
-    "@vpmedia/simplify": "^1.76.0",
+    "@vpmedia/phaser": "^1.106.0",
+    "@vpmedia/simplify": "^1.77.0",
     "fontfaceobserver": "^2.3.0",
     "spectorjs": "^0.9.30"
   },
@@ -36,7 +36,7 @@
     "@commitlint/config-conventional": "^21.2.0",
     "@types/fontfaceobserver": "^2.1.3",
     "@types/node": "^26.1.0",
-    "@vitest/coverage-v8": "^4.1.9",
+    "@vitest/coverage-v8": "^4.1.10",
     "@vpmedia/phixify": "^2.2.0",
     "happy-dom": "^20.10.6",
     "oxfmt": "^0.57.0",
@@ -44,6 +44,6 @@
     "oxlint-tsgolint": "^0.24.0",
     "typescript": "^6.0.3",
     "vite": "^8.1.3",
-    "vitest": "^4.1.9"
+    "vitest": "^4.1.10"
   }
 }
