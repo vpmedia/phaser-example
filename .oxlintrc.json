@@ -17,6 +17,7 @@
     "id-length": "off",
     "max-statements": "off",
     "no-magic-numbers": "off",
+    "one-var": "off",
     "sort-imports": "off",
     "sort-keys": "off",
     "typescript/explicit-function-return-type": "off",
