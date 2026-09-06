@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@vpmedia/phaser':
-        specifier: ^1.109.0
-        version: 1.109.0
+        specifier: ^1.112.0
+        version: 1.112.0
       '@vpmedia/simplify':
-        specifier: ^1.78.0
-        version: 1.78.0
+        specifier: ^1.79.0
+        version: 1.79.0
       fontfaceobserver:
         specifier: ^2.3.0
         version: 2.3.0
@@ -40,8 +40,8 @@ importers:
         specifier: ^2.2.0
         version: 2.2.0
       happy-dom:
-        specifier: ^20.13.2
-        version: 20.13.2
+        specifier: ^20.14.0
+        version: 20.14.0
       oxfmt:
         specifier: ^0.66.0
         version: 0.66.0
@@ -59,7 +59,7 @@ importers:
         version: 8.2.2(@types/node@26.4.1)(esbuild@0.27.2)(jiti@2.6.1)
       vitest:
         specifier: ^5.0.0
-        version: 5.0.0(@types/node@26.4.1)(@vitest/coverage-v8@5.0.0)(happy-dom@20.13.2)(jsdom@29.1.1)(vite@8.2.2(@types/node@26.4.1)(esbuild@0.27.2)(jiti@2.6.1))
+        version: 5.0.0(@types/node@26.4.1)(@vitest/coverage-v8@5.0.0)(happy-dom@20.14.0)(jsdom@29.1.1)(vite@8.2.2(@types/node@26.4.1)(esbuild@0.27.2)(jiti@2.6.1))
 
 packages:
 
@@ -558,6 +558,9 @@ packages:
 
   '@jridgewell/trace-mapping@0.3.31':
     resolution: {integrity: sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw==}
+
+  '@logtape/logtape@2.3.3':
+    resolution: {integrity: sha512-H8AqgCq6M6Wu97FVPyfE5UT4w6H+Wdt9iGzLKPgtJRI/jrG9HbzzNUw9JL1LarkZD8xeKx9FqKfcLaXr0hGJuw==}
 
   '@oxc-project/types@0.148.0':
     resolution: {integrity: sha512-Nm4s/jB+4FpFsPhWGEC4h7rzksesmtnMXomo6rCMcg/b8zLQuOziRgkCS1fxDCXOlJB/6Q8oABOZ/OP6RIPj9A==}
@@ -1147,15 +1150,15 @@ packages:
   '@vitest/spy@5.0.0':
     resolution: {integrity: sha512-uy+luWBAPw9XfthoHi5AkfHUnuPYEESjl0p/r+meoBnU8bxg5GDQ3Ey8MjcJ6sqahkL4PFyrvfMJJBw7LbU06g==}
 
-  '@vpmedia/phaser@1.109.0':
-    resolution: {integrity: sha512-QAp/0zlwimAA7xPENe92K24CJb9Dq59gniuquSR9Bfsh4/lvk09VdWrC/4hKA2ar+mFE0ws6kK6mGoFg5lgv3A==}
+  '@vpmedia/phaser@1.112.0':
+    resolution: {integrity: sha512-lwMIslGHRS09deNAUeRmFni1awcEQEBX0e3EIcBjMjjTDEPtTO1o6W9ZtTdyn3EKWn3QFUOB+GCIA5ppNod1uA==}
 
   '@vpmedia/phixify@2.2.0':
     resolution: {integrity: sha512-PcHI+6VnbrO9qBAtAGiGipnFQo6pUPCBJzzpNO5OoJctsuvgFzSDpbfekApx3S2m4T/r8A6iyiLB1XhYXpx7IA==}
     hasBin: true
 
-  '@vpmedia/simplify@1.78.0':
-    resolution: {integrity: sha512-Yd/avZRB+5Zq8YT/xlQYJc9M+vOc4QqJxKEKqGHqQoOv9A0s3SlwwUVzgCpv94gOt2l6Z7T1MIwLfRnhz58r5Q==}
+  '@vpmedia/simplify@1.79.0':
+    resolution: {integrity: sha512-jcB2gApRiayeGrCTX/QUilD+vDr2W6CvetstTer0+AmWxB+OVvr10ZNkZGT63YCoFI+K5L08Pa8oxixTLxJIYQ==}
 
   ajv@8.20.0:
     resolution: {integrity: sha512-Thbli+OlOj+iMPYFBVBfJ3OmCAnaSyNn4M1vz9T6Gka5Jt9ba/HIR56joy65tY6kx/FCF5VXNB819Y7/GUrBGA==}
@@ -1325,8 +1328,8 @@ packages:
     resolution: {integrity: sha512-1pgFdhK3J2LeM+dVf2Pd424yHx2ou338lC0ErNP2hPx4j8eW1Sp0XqSjNxtk6Tc4Kr5wlWtSvz8cn2yb7/SG/w==}
     engines: {node: '>=20'}
 
-  happy-dom@20.13.2:
-    resolution: {integrity: sha512-VC9HoEaT3Jf3K/1g/GjMYGAZCCg+ULgGVcXJlAeSzdTj8mIoPJRp14KVclP5gpUcF/kauuaVB2ri2/WxXbl4vg==}
+  happy-dom@20.14.0:
+    resolution: {integrity: sha512-4bRh1KzRvKDnFNTlLhzT1RZTpkKhQbQDl9j+7GXszWsvuspYdo29k6OHRf4PwiM6oLb8r/pMWeYiJjkfod5AvQ==}
     engines: {node: '>=20.0.0'}
 
   html-encoding-sniffer@6.0.0:
@@ -1527,8 +1530,8 @@ packages:
     resolution: {integrity: sha512-qcJu88Q2IWqJsDD529JKMdwGm/dvInW4HvQnRwiH9JtihJvzGOscDtHE3x1pBKeUOTysQ8kVmLnJ2kJu7yhcGA==}
     engines: {node: '>=12'}
 
-  postcss@8.5.26:
-    resolution: {integrity: sha512-u82N74LFzG8ca+dD8puPnplTXoGH4fTPpVGuIbt36G3qvNlkvfD0lEAZSxaly3KX8TS/L1A1gsCEmvKmBcVbkQ==}
+  postcss@8.5.28:
+    resolution: {integrity: sha512-RRuzqDtt5Y9h3quz5hWhK+TPnsmVs6WwSU6LkJMeY4HstUEDuYTG8UJSdawMRzmzAtV+KEoG8N3Qg2qLy5vM/A==}
     engines: {node: ^10 || ^12 || >=14}
 
   punycode@2.3.1:
@@ -1604,6 +1607,10 @@ packages:
     resolution: {integrity: sha512-QKAl9m8gWWGHV8jZcPeym6j+XULi6tOf1mT83WYJ4Lk2ytW/uwAWkrP0uFsdoYMdueVJ0qs26wZ+23xeB4ibNQ==}
     engines: {node: '>=18'}
 
+  tinyexec@1.3.1:
+    resolution: {integrity: sha512-GCvB3aoys96IuDFBMcTB46JOR6mdMtAToqwiW8JlWhsoh1mhHi/xn9ss/Dg7N555GiJyEt2qzoG/NHCwM6h1EA==}
+    engines: {node: '>=18'}
+
   tinyglobby@0.2.17:
     resolution: {integrity: sha512-wXR/dYpcqKmfWpEdZjiKJOwCNFndD0DMnrW/cYjVGttEkBfVgcLFHoNrlj47mjOVic9yyNu65alsgF4NQyTa2g==}
     engines: {node: '>=12.0.0'}
@@ -1642,8 +1649,8 @@ packages:
   undici-types@8.3.0:
     resolution: {integrity: sha512-j375ScV60dom+YkPFIfTLcOiPxkN/buHz5GobjLhixFuANaNs3C9l4GmrWqejgXWJ7BbJcFYpTEUkS1Ge8bpZQ==}
 
-  undici@7.29.0:
-    resolution: {integrity: sha512-IDxfleLmmbSskfWSUATiN1nfn2rDuvnMOqb5CWR92iIfojA0Ud+ulOAAEQ57LPr9rWmsreUyf5lwyao+7GNNVw==}
+  undici@7.29.1:
+    resolution: {integrity: sha512-RYONW2MeafgYlkVOKYKkA/Ag7BmXqgIWCa8t1m0JcxrQg9pI9lEqRhAOruOBCbAohOa/gkCF+iPi9hrgvTzu6Q==}
     engines: {node: '>=20.18.1'}
 
   uuid@14.0.2:
@@ -1854,7 +1861,7 @@ snapshots:
       '@commitlint/load': 21.2.2(@types/node@26.4.1)(typescript@7.0.2)
       '@commitlint/read': 21.2.1(conventional-commits-parser@7.1.2)
       '@commitlint/types': 21.2.0
-      tinyexec: 1.3.0
+      tinyexec: 1.3.1
       yargs: 18.1.0
     transitivePeerDependencies:
       - '@types/node'
@@ -1924,7 +1931,7 @@ snapshots:
       '@commitlint/top-level': 21.2.0
       '@commitlint/types': 21.2.0
       '@conventional-changelog/git-client': 3.1.2(conventional-commits-parser@7.1.2)
-      tinyexec: 1.3.0
+      tinyexec: 1.3.1
     transitivePeerDependencies:
       - conventional-commits-filter
       - conventional-commits-parser
@@ -2185,6 +2192,8 @@ snapshots:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.6.0
+
+  '@logtape/logtape@2.3.3': {}
 
   '@oxc-project/types@0.148.0': {}
 
@@ -2507,7 +2516,7 @@ snapshots:
       obug: 2.1.4
       std-env: 4.2.0
       tinyrainbow: 3.1.1
-      vitest: 5.0.0(@types/node@26.4.1)(@vitest/coverage-v8@5.0.0)(happy-dom@20.13.2)(jsdom@29.1.1)(vite@8.2.2(@types/node@26.4.1)(esbuild@0.27.2)(jiti@2.6.1))
+      vitest: 5.0.0(@types/node@26.4.1)(@vitest/coverage-v8@5.0.0)(happy-dom@20.14.0)(jsdom@29.1.1)(vite@8.2.2(@types/node@26.4.1)(esbuild@0.27.2)(jiti@2.6.1))
 
   '@vitest/istanbul-lib-coverage@1.0.1': {}
 
@@ -2526,9 +2535,10 @@ snapshots:
 
   '@vitest/spy@5.0.0': {}
 
-  '@vpmedia/phaser@1.109.0':
+  '@vpmedia/phaser@1.112.0':
     dependencies:
-      '@vpmedia/simplify': 1.78.0
+      '@logtape/logtape': 2.3.3
+      '@vpmedia/simplify': 1.79.0
       uuid: 14.0.2
 
   '@vpmedia/phixify@2.2.0':
@@ -2536,7 +2546,7 @@ snapshots:
       commander: 14.0.3
       sharp: 0.34.5
 
-  '@vpmedia/simplify@1.78.0':
+  '@vpmedia/simplify@1.79.0':
     optionalDependencies:
       '@sentry/browser': 10.73.0
 
@@ -2708,7 +2718,7 @@ snapshots:
     dependencies:
       ini: 6.0.0
 
-  happy-dom@20.13.2:
+  happy-dom@20.14.0:
     dependencies:
       '@types/node': 26.4.1
       '@types/whatwg-mimetype': 3.0.2
@@ -2769,7 +2779,7 @@ snapshots:
       saxes: 6.0.0
       symbol-tree: 3.2.4
       tough-cookie: 6.0.2
-      undici: 7.29.0
+      undici: 7.29.1
       w3c-xmlserializer: 5.0.0
       webidl-conversions: 8.0.1
       whatwg-mimetype: 5.0.0
@@ -2930,7 +2940,7 @@ snapshots:
 
   picomatch@4.0.7: {}
 
-  postcss@8.5.26:
+  postcss@8.5.28:
     dependencies:
       nanoid: 3.3.18
       picocolors: 1.1.1
@@ -3038,6 +3048,8 @@ snapshots:
 
   tinyexec@1.3.0: {}
 
+  tinyexec@1.3.1: {}
+
   tinyglobby@0.2.17:
     dependencies:
       fdir: 6.5.0(picomatch@4.0.7)
@@ -3093,7 +3105,7 @@ snapshots:
 
   undici-types@8.3.0: {}
 
-  undici@7.29.0:
+  undici@7.29.1:
     optional: true
 
   uuid@14.0.2: {}
@@ -3102,7 +3114,7 @@ snapshots:
     dependencies:
       lightningcss: 1.33.0
       picomatch: 4.0.7
-      postcss: 8.5.26
+      postcss: 8.5.28
       rolldown: 1.2.7
       tinyglobby: 0.2.17
     optionalDependencies:
@@ -3111,7 +3123,7 @@ snapshots:
       fsevents: 2.3.3
       jiti: 2.6.1
 
-  vitest@5.0.0(@types/node@26.4.1)(@vitest/coverage-v8@5.0.0)(happy-dom@20.13.2)(jsdom@29.1.1)(vite@8.2.2(@types/node@26.4.1)(esbuild@0.27.2)(jiti@2.6.1)):
+  vitest@5.0.0(@types/node@26.4.1)(@vitest/coverage-v8@5.0.0)(happy-dom@20.14.0)(jsdom@29.1.1)(vite@8.2.2(@types/node@26.4.1)(esbuild@0.27.2)(jiti@2.6.1)):
     dependencies:
       '@types/chai': 5.2.3
       '@vitest/mocker': 5.0.0(vite@8.2.2(@types/node@26.4.1)(esbuild@0.27.2)(jiti@2.6.1))
@@ -3130,7 +3142,7 @@ snapshots:
     optionalDependencies:
       '@types/node': 26.4.1
       '@vitest/coverage-v8': 5.0.0(vitest@5.0.0)
-      happy-dom: 20.13.2
+      happy-dom: 20.14.0
       jsdom: 29.1.1
     transitivePeerDependencies:
       - msw

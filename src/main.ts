@@ -17,7 +17,7 @@ class GameState {
 
   create() {
     // json
-    const jsonData = this.game.cache.getJSON('data.json');
+    const jsonData = this.game.cache.getJSON<{ title: string }>('data.json');
     // image
     const bg = this.game.add.image(320, 240, 'bg', null);
     bg.anchor.setTo(0.5, 0.5);
@@ -67,7 +67,7 @@ class GameState {
   addSprite() {
     const spriteSheet = this.game.add.image(Math.random() * 640, Math.random() * 480, 'spritesheet1', null);
     spriteSheet.anchor.setTo(0.5, 0.5);
-    const anim = spriteSheet.animations.add('anim');
+    const anim = spriteSheet.animations.add('anim', null);
     anim.play(12, true);
     this.numSprites += 1;
   }
