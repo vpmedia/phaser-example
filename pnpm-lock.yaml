@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@vpmedia/phaser':
-        specifier: ^1.112.0
-        version: 1.112.0
+        specifier: ^1.123.0
+        version: 1.123.0
       '@vpmedia/simplify':
         specifier: ^1.79.0
         version: 1.79.0
@@ -1150,8 +1150,8 @@ packages:
   '@vitest/spy@5.0.0':
     resolution: {integrity: sha512-uy+luWBAPw9XfthoHi5AkfHUnuPYEESjl0p/r+meoBnU8bxg5GDQ3Ey8MjcJ6sqahkL4PFyrvfMJJBw7LbU06g==}
 
-  '@vpmedia/phaser@1.112.0':
-    resolution: {integrity: sha512-lwMIslGHRS09deNAUeRmFni1awcEQEBX0e3EIcBjMjjTDEPtTO1o6W9ZtTdyn3EKWn3QFUOB+GCIA5ppNod1uA==}
+  '@vpmedia/phaser@1.123.0':
+    resolution: {integrity: sha512-PT4DASg5tgEJxSdsDAth4Lm0m+NXQjqVLCG9RNJH4IKTwv96AH2cw/r9GaUb7tI20Tf0FdsEU5Mbl3Jrzl1H9A==}
 
   '@vpmedia/phixify@2.2.0':
     resolution: {integrity: sha512-PcHI+6VnbrO9qBAtAGiGipnFQo6pUPCBJzzpNO5OoJctsuvgFzSDpbfekApx3S2m4T/r8A6iyiLB1XhYXpx7IA==}
@@ -2535,7 +2535,7 @@ snapshots:
 
   '@vitest/spy@5.0.0': {}
 
-  '@vpmedia/phaser@1.112.0':
+  '@vpmedia/phaser@1.123.0':
     dependencies:
       '@logtape/logtape': 2.3.3
       '@vpmedia/simplify': 1.79.0
